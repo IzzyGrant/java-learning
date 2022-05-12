@@ -1,2 +1,2 @@
 # java-learning
-several codes in Java for practise...
+several codes in Java for practise
