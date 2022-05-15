@@ -1,6 +1,6 @@
 /* Java operators written by Izzy G. Osorio */
 
-import java.util.Scanner; // Nos permitira utilizar un input.
+import java.util.Scanner; // Nos permitira utilizar inputs, para introduccion de valores por el usuario.
 
 /*Se hace uso de los principales tipos de operadores de Java y su impresion de valor.*/
 
@@ -13,10 +13,8 @@ class operadores {
 	Scanner lectura = new Scanner(System.in); // Hacemos un objeto Scanner para introducir valores.
 
 
-        int a, b, c; // Se declara variable tipo INT con valor inicial.
+        int a, b, c; // Se declaran variables a usar .
 
-
-		// Inicia impresion de variables:
 		long startTime = System.currentTimeMillis(); // Captura el tiempo desde que inicia este punto del programa
 
 		System.out.println(nuevaLinea + "---------------------------------------------"+ nuevaLinea);
