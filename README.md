@@ -1,7 +1,7 @@
 # java-learning
 
 
-## Codigos de trabajo de PILARES del programa de Programador Junior.
+## Codigos de trabajo de PILARES basados en el programa de 'Programador Junior Java'.
 
 
 - Introduccion de Java: {hello.java}
