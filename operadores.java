@@ -4,7 +4,7 @@ import java.util.Scanner; // Nos permitira utilizar inputs, para introduccion de
 
 /*Se hace uso de los principales tipos de operadores de Java y su impresion de valor.*/
 
-class operadores {
+public class operadores {
 
     	public static void main(String[] args) {
 
