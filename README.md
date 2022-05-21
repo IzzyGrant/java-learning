@@ -11,15 +11,7 @@
 |`operadores.java`|Codigo que utiliza operadores basicos de Java asi como el uso de inputs para operar dos valores ademas devuelve el valor en "segundos" una vez finalizado el programa mediante "System.currentTimeMIllis();".	|
 |`sentencias.java`|Sentencias de Java: if, for, while...(escribiendo...)	 |
 
-- Ruta:
 
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
 
 ## Extras.
 
