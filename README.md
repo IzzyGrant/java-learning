@@ -15,7 +15,7 @@
 
 ## Extras.
 
-- Creacion y escritura de un documento de texto.txt: {arrayToTxt.java}
+- Otros codigos misceláneos:
 
 	
 
