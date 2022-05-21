@@ -22,7 +22,7 @@ public class arrayToTxt {
     // Aqui se inicia a escribir el contenido en el docunemto .txt mediante writer.println();
 	writer.println( "Lista de Productos" );
 
-	writer.println("Hoy es: " + today);
+	writer.println("Hoy es: " + today); // Aqui se escribe la hora y fecha actual 
 
 	System.out.println("El arreglo productos tiene: " + productos.length + " elementos.");
 
