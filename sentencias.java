@@ -1,10 +1,11 @@
 /* Java Sentences written by Izzy G. Osorio */
 
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class sentencias {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         String nuevaLinea = System.getProperty("line.separator");
         Scanner inputkey = new Scanner(System.in);
@@ -35,6 +36,22 @@ public class sentencias {
 
         for (int i = 0; i < a; i++) {
             System.out.println("El valor de 'i' es: " + i);
+        }
+
+        System.out.println(nuevaLinea + "La sentencia 'WHILE' ejecutara un ciclo si se cumple una condicion determinada similar a 'FOR'." + nuevaLinea);
+
+        System.out.println(
+                nuevaLinea + "Tomando el ultimo valor introducido: " + a + " se descontara hasta llegar a 0 con WHILE"
+                        + nuevaLinea);
+        System.out.println(
+                nuevaLinea + "Se restara 1 por segundo" + nuevaLinea);
+        TimeUnit.SECONDS.sleep(3); // Funcion para dormir programa por segundos; se declaran 3 en este caso para
+                                   // lectura
+
+        while (a >= 0) {
+            System.out.println("El valor de 'a' es: " + a);
+            a--;
+            TimeUnit.SECONDS.sleep(1); // Contador de segundos
         }
 
         System.out.println(nuevaLinea + "---------------------------------------------" + nuevaLinea);
