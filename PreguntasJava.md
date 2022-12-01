@@ -12,8 +12,17 @@ Un **objeto**  es un espécimen de una clase. Los objetos de  [software](https:/
 > **Fuente:** [Descubre qué es un constructor en Java. ¡Infórmate aquí! (tokioschool.com)](https://www.tokioschool.com/noticias/que-es-constructor-java/)
 
 ## ¿Cuáles son las diferencias entre String y StringBuilder?
-**String:** Es inmutable,
+**String:** Es inmutable
 
-**StringBuilder:** Es mutable
+**StringBuilder:** Es mutable, consume menor memoria con las concatenaciones
 
 > **Fuente:** [Difference between String and StringBuilder in Java | Techie Delight](https://www.techiedelight.com/difference-between-string-stringbuilder-java/)
+## ¿En términos de eficiencia, es mejor utilizar String o StringBuilder y por qué?
+
+##  ¿Cuáles son las diferencias entre un método no estático y un método estático?
+
+## ¿Qué es el bloque static y para que nos sirve?
+
+## ¿Qué es encapsulamiento y como implementarlo en una clase?
+
+
