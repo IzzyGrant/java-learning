@@ -23,8 +23,53 @@ Un **objeto**  es un espécimen de una clase. Los objetos de  [software](https:/
 > **Fuente (Ingles):** [Difference between String and StringBuilder in Java | Techie Delight](https://www.techiedelight.com/difference-between-string-stringbuilder-java/)
 > 
 ## 5️⃣¿Cuáles son las diferencias entre un método no estático y un método estático?
+una variable **estática** pertenece a la clase misma y una variable **no estática** pertenece a cada instancia de una clase. Por lo tanto, el valor de una variable **estática** sigue siendo el mismo para cada instancia de la clase, pero no se puede decir lo mismo de la variable **no estática**.
 
+No podemos acceder a variables **no estáticas** dentro de un método **estático** sin una instancia de su clase. Un método **estático** solo puede acceder a variables estáticas, mientras que un método no estático puede acceder tanto a variables estáticas como no estáticas...
+
+> **Fuente:** [Diferencia entre métodos estáticos y no estáticos en Java (techiedelight.com)](https://www.techiedelight.com/es/difference-between-static-and-non-static-method-java/)
 ## 6️⃣¿Qué es el bloque static y para que nos sirve?
+El **bloque static** es un bloque de instrucción dentro de una clase Java que se ejecuta cuando una clase se carga por primera vez en la JVM. Básicamente un bloque static inicializa variables de tipo static dentro de una clase, al igual que los constructores ayudan a inicializar las variables de instancia, un bloque static inicializa las variables de tipo static en una clase.
 
+> **Fuente:** [Métodos, variables y bloques static en Java con ejemplos (ecodeup.com)](https://www.ecodeup.com/metodos-variables-y-bloques-static-en-java-con-ejemplos/#:~:text=El%20bloque%20static%20es%20un,primera%20vez%20en%20la%20JVM.)
 ## 7️⃣¿Qué es encapsulamiento y como implementarlo en una clase?
 
+Hace referencia a limitar el acceso a las variables de nuestras clases Java de tal forma que podamos tener un mayor control sobre ellas. Normalmente utilizando métodos **set/get**.
+
+```mermaid
+graph LR
+A[Encapsulacion]  ------> B[Set/Get]
+
+```
+```
+package com.arquitecturajava.ejemplo3;
+
+public class Bateria {
+
+  private int capacidad;
+
+  public int getCapacidad() {
+    return capacidad;
+  }
+
+  public void setCapacidad(int capacidad) {
+    this.capacidad = capacidad;
+  }
+
+  public Bateria(int capacidad) {
+    super();
+    this.capacidad = capacidad;
+  }
+
+  public int duracionBateria() {
+
+    if (capacidad < 3000) {
+      return 16;
+    } else {
+
+      return 24;
+    }
+  }
+}
+```
+> **Fuente:** [Java Encapsulamiento y reutilización - Arquitectura Java](https://www.arquitecturajava.com/java-encapsulamiento-y-reutilizacion/)
